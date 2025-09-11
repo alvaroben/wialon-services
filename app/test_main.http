@@ -1,0 +1,16 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/locator
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/locator?token=&items=27885622
+Accept: application/json
+
+###
